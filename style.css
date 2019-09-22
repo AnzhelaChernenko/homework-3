@@ -1,0 +1,100 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #990909;
+}
+
+
+#my_style {
+    height: 100%;
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: black;
+}
+#left_aside{
+    height: 100%;
+    width: 95%;
+    margin-left: 2.5%;
+    padding-top: 20px;
+}
+a{
+
+    font-family: Candara;
+}
+ img{
+     padding-top: 20px;
+ }
+ h5{
+     text-align: center;
+ }
+
+ aside.left_position{
+     width: 200px;
+     height: 290px;
+     background-color: #7D0909;
+     color: #E95B11;
+     line-height: 30px;
+
+ }
+ aside.ul{
+     margin-left: 0px;
+ }
+aside.right_position{
+    width: 150px;
+    height: 290px;
+    background-color: #E3DDDD;
+
+}
+
+h6{
+    font-weight: bold;
+    background-color: #BDBDBD;
+    text-align: center;
+}
+
+.line{
+    width: 50px;
+    height: 1px;
+}
+
+.foot_line{
+    height: 15px;
+    background-color: #E95B11;
+    width: 95%;
+    margin-left: 2.5%;
+    text-align: center;
+    color: white;
+}
+
+div#left_aside {
+    padding-bottom: 20px;
+}
+
+#dist{
+    padding-bottom: 30px;
+}
+
+span#cen {
+    font-size: 10px;
+    position: relative;
+    bottom: 6px;
+}
+
+@media (max-width: 1500px) {
+    #del {
+        display: none;
+    }
+}
+
+
+    .position {
+        width: 350px;
+        height: 50px;
+    }
+
+
+@media (max-width: 1300px) {
+    aside.right_position,.left_position {
+        display: none;
+    }
+}
